@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Slab:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto slab sans-serif;
+}
+
+.container{
+ width: 1200px;
+max-width: 100%;
+margin: 0 auto;
+}
+header{
+    background-color: rgba(171, 165, 165, 1);
+}
+.navbar{
+padding: 36px 0;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+nav ul li a{
+    text-decoration: none;
+    
+    font-family: Roboto Slab;
+font-size: 20px;
+font-weight: 500;
+line-height: 26.38px;
+text-align: left;
+color: black;
+transition: 0.5 ease-in-out;
+}
+nav ul li a:hover{
+    color: red;
+}
+.btn{
+    background-color:  rgba(217, 217, 217, 1);
+    width: 183px;
+padding: 7px 45px;
+border-radius: 20px;
+border: none;
+font-family: Roboto Slab;
+font-size: 20px;
+font-weight: 500;
+line-height: 26.38px;
+}
+.btn:hover{
+    background-color: rgba(255, 0, 0, 1);
+    color:  rgba(251, 251, 251, 1);
+    
+}
+.cards{
+    display:flex;
+    gap: 96px;
+    margin: 92px auto ;
+}
+.card{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color:rgba(217, 217, 217, 1); 
+    border-radius: 20px;
+}
+.card:hover{
+    background-color: rgba(20, 0, 255, 1);
+    color: rgba(255, 255, 255, 1);
+
+}
+.card_text{
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  padding: 26.38px;
+
+}
+.card_text h2{
+    font-family: Roboto Slab;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42.2px;
+}
+.card_text p{
+    font-family: Roboto Slab;
+font-size: 20px;
+font-weight: 500;
+line-height: 26.38px;
+text-align: center;
+
+}
+.card_text button{
+    width: 183px;
+height: 36px;
+font-family: Roboto Slab;
+font-size: 20px;
+font-weight: 500;
+line-height: 26.38px;
+text-align: center;
+background-color: rgba(0, 0, 0, 0.4);
+border-radius: 20px;
+border: 1px 0px 0px 0px;
+color:  rgba(255, 255, 255, 1);
+justify-content: center;
+margin: auto;
+}
+.card_text button:hover{
+    background-color: rgba(255, 0, 0, 1);
+    color:  rgba(255, 255, 255, 1);
+    border: 5px solid rgba(0, 255, 148, 1)
+}
+
+.text{
+    width: 794px;
+height: 123px;
+top: 160px;
+left: 321px;
+border-radius: 50px ;
+background-color: rgba(217, 217, 217, 1);
+color:  rgba(162, 73, 73, 1);
+font-family: Roboto Slab;
+font-size: 48px;
+font-weight: 500;
+line-height: 63.3px;
+text-align: center;
+padding: 24px 20px 25px 21px;
+margin: 44px auto;
+}
+.text:hover{
+    background-color: rgba(255, 0, 0, 1);
+    color:  rgba(255, 255, 255, 1);
+}
